@@ -1,0 +1,5 @@
+f=open("mytext.txt",'r')
+x=f.readline()
+print(x.split(' '))
+print(len(x.split(' ')))
+f.close()
